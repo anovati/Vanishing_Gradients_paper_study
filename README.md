@@ -6,7 +6,7 @@ Inspired by the paper "_[Regularization and Reparameterization Avoid Vanishing G
 ## Goal
 The goal of this project was to replicate the results of the paper by Ven and Lederer [2021] with slight models architectural variations, as an optional graduate project with a theoretical flavour. The focus is on analyzing how gradients of the models change by varying different experimental variables and/or setups (initialization functions, activation functions, depth of the network, etc.) 
 
-# Repository Structure
+## Repository Structure
 * _VanishingGradients_report.pdf_ contains a final report of the work, with both an introduction to the problem, the goal of the project and the main results.
 * _Notebooks/_ contains four notebooks, to account for
   * 2 experiment setups (large initialization parameters, deep network)
@@ -14,4 +14,7 @@ The goal of this project was to replicate the results of the paper by Ven and Le
 * _environment.yml_ contains the libraries necessary to run the notebooks
   
 Most of the experiments are the same. To have a clear view of the whole ordered pipeline (step-by-step), consult _mnist_LargeParameters.ipynb_: this notebook has been consistently annotated with explanations and explicit code. The other notebooks, to avoid verbosity, use the same functions but imported from _/src/*.py_ source files, however less descriptive.
+
+## Framework
+Project realized in TensorFlow Keras
 
