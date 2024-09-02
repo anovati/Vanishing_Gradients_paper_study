@@ -4,7 +4,7 @@ Exploring the well-known issue of "Vanishing Gradients" in Deep Learning and the
 Inspired by the paper "_[Regularization and Reparameterization Avoid Vanishing Gradients in Sigmoid-Type Networks]([url](https://arxiv.org/abs/2106.02260#))"_ by Ven and Lederer [2021].
 
 ## Goal
-The goal of this project was to replicate the results of the paper by Ven and Lederer [2021] with slight models architectural variations, as an optional graduate project with a theoretical flavour. 
+The goal of this project was to replicate the results of the paper by Ven and Lederer [2021] with slight models architectural variations, as an optional graduate project with a theoretical flavour. The focus is on analyzing how gradients of the models change by varying different experimental variables and/or setups (initialization functions, activation functions, depth of the network, etc.) 
 
 # Repository Structure
 * _VanishingGradients_report.pdf_ contains a final report of the work, with both an introduction to the problem, the goal of the project and the main results.
