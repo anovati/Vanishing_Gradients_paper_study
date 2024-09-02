@@ -1,4 +1,4 @@
-# Vanishing_Gradients_paper_study
+# Exploring ways to avoid the Vanishing Gradients effect in Deep Learning frameworks via Weights Initializers and Scaled Activation Functions
 Exploring the well-known issue of "Vanishing Gradients" in Deep Learning and the influence the activation functions and the weights initialization have over it. This was done using different NN architectures (FFNN, CNN) with different sizes and weights' initialization functions, and two different datasets (mnist, cifar10).
 
 Inspired by the paper "_[Regularization and Reparameterization Avoid Vanishing Gradients in Sigmoid-Type Networks]([url](https://arxiv.org/abs/2106.02260#))"_ by Ven and Lederer [2021].
