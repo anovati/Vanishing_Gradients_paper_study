@@ -11,6 +11,7 @@ The goal of this project was to replicate the results of the paper by Ven and Le
 * _Notebooks/_ contains four notebooks, to account for
   * 2 experiment setups (large initialization parameters, deep network)
   * 2 different datasets for training (mnist, cifar10)
-
+* _environment.yml_ contains the libraries necessary to run the notebooks
+  
 Most of the experiments are the same. To have a clear view of the whole ordered pipeline (step-by-step), consult _mnist_LargeParameters.ipynb_: this notebook has been consistently annotated with explanations and explicit code. The other notebooks, to avoid verbosity, use the same functions but imported from _/src/*.py_ source files, however less descriptive.
 
